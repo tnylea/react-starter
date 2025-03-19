@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "tnylea/react-starter",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A vanilla React + Laravel project",
     "keywords": [
         "laravel",
         "framework"
