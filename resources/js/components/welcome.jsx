@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from '../../../public/react.svg'
-import viteLogo from '../../../public/laravel.svg'
+import laravelLogo from '../../../public/laravel.svg'
 
 function Welcome() {
     const [count, setCount] = useState(0)
@@ -9,7 +9,7 @@ function Welcome() {
       <div className="flex flex-col space-y-10 lg:p-0 p-10 items-center justify-center text-center">
         <div className="flex items-center space-x-10">
           <a href="https://laravel.com" target="_blank" className="w-32 hover:scale-[1.02] ease-out duration-300 h-auto">
-            <img src={viteLogo} className="w-full h-full" alt="Vite logo" />
+            <img src={laravelLogo} className="w-full h-full" alt="Laravel logo" />
           </a>
           <a href="https://react.dev" target="_blank" className="w-32 hover:scale-[1.02] ease-out duration-300 h-auto">
             <img src={reactLogo} className="w-full h-full logo" alt="React logo" />
